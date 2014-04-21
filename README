@@ -1,0 +1,6 @@
+Quick POC to MITM RDP SSL - http://diablohorn.wordpress.com
+Inspired by: https://labs.portcullis.co.uk/blog/ssl-man-in-the-middle-attacks-on-rdp/
+
+When a client connects it will be presented with a fake cert and all the plain text data
+will be saved to a pcap. You can then use the pcap to extract key strokes or to replay the
+session if you have the appropiate tools for it.
